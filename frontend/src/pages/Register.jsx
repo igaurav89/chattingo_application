@@ -25,7 +25,7 @@ function Register() {
 
     try {
       const res = await axios.post(
-        `${process.env.REACT_APP_API}/api/auth/register`,
+        "https://chattingo-backend.onrender.com/api/auth/register",
         form
       );
 
